@@ -154,26 +154,33 @@ Nesse exemplo, a segunda posição possui o maior valor, então a classe predita
 
 ## 8. Resultados
 
-Preencha abaixo os resultados obtidos após executar o algoritmo.
+Resultados com Z-score aplicado:
 
-| Métrica                 | Valor |
-| :---------------------- | :---- |
-| Acurácia                |       |
-| Número de amostras      |       |
-| Número de atributos     |       |
-| Número de classes       | 3     |
-| Número de neurônios RBF |       |
-| Valor de $\sigma$       |       |
+| Métrica                 | Valor  |
+| :---------------------- | :----  |
+| Acurácia                | 82.58% |
+| Número de amostras      |  310   |
+| Número de atributos     |     6  |
+| Número de classes       | 3      |
+| Número de neurônios RBF |   34   |
+| Valor de $\sigma$       |    1   |
+
+
+
+Resultados sem Z-score aplicado:
+
+| Métrica                 | Valor  |
+| :---------------------- | :----  |
+| Acurácia                | 48.39% |
+| Número de amostras      |  310   |
+| Número de atributos     |     6  |
+| Número de classes       | 3      |
+| Número de neurônios RBF |   34   |
+| Valor de $\sigma$       |    1   |
 
 ### Observações
 
-Escreva aqui observações sobre os resultados obtidos.
-
-```text
-Coloque aqui seus comentários sobre o desempenho da rede.
-```
-
----
+Os centróides foram iniciados de forma aleatória.
 
 ## 9. Conclusão
 
